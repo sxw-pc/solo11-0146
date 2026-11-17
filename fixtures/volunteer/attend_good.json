@@ -1,0 +1,6 @@
+[
+ {"event_id":"att-v1","op":"attendance","shift_id":"s1","volunteer_id":"v1","site":"north","arrived_at":"2026-11-17T10:00:00Z","left_at":"2026-11-17T12:00:00Z","event_time":"2026-11-17T12:05:00Z"},
+ {"event_id":"att-v2","op":"attendance","shift_id":"s1","volunteer_id":"v2","site":"north","arrived_at":"2026-11-17T10:30:00Z","left_at":"2026-11-17T11:30:00Z","event_time":"2026-11-17T11:35:00Z"},
+ {"event_id":"approve-v1","op":"approval","shift_id":"s1","volunteer_id":"v1","supervisor":"supervisor-x","decision":"approve","event_time":"2026-11-17T12:10:00Z"},
+ {"event_id":"approve-v2","op":"approval","shift_id":"s1","volunteer_id":"v2","supervisor":"supervisor-x","decision":"approve","event_time":"2026-11-17T12:10:00Z"}
+]

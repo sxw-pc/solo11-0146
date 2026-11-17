@@ -1,0 +1,4 @@
+[
+ {"event_id":"cred-v1","op":"credential","volunteer_id":"v1","skill":"rescue","issuer":"synthetic-rescue-school","valid_from":"2026-01-01T00:00:00Z","valid_until":"2026-12-31T00:00:00Z","status":"valid","event_time":"2026-11-17T09:10:00Z"},
+ {"event_id":"cred-v2","op":"credential","volunteer_id":"v2","skill":"rescue","issuer":"synthetic-rescue-school","valid_from":"2026-01-01T00:00:00Z","valid_until":"2026-12-31T00:00:00Z","status":"valid","event_time":"2026-11-17T09:10:00Z"}
+]

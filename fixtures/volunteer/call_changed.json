@@ -1,0 +1,3 @@
+[
+ {"event_id":"call-2","op":"call","shift_id":"s1","version":2,"starts_at":"2026-11-17T10:00:00Z","ends_at":"2026-11-17T12:00:00Z","deadline":"2026-11-17T09:30:00Z","slots":1,"skill":"rescue","site":"north","status":"open","event_time":"2026-11-17T09:20:00Z"}
+]

@@ -1,0 +1,5 @@
+[
+ {"event_id":"call-1","op":"call","shift_id":"s1","version":1,"starts_at":"2026-11-17T10:00:00Z","ends_at":"2026-11-17T12:00:00Z","deadline":"2026-11-17T09:30:00Z","slots":2,"skill":"rescue","site":"north","status":"open","event_time":"2026-11-17T08:00:00Z"},
+ {"event_id":"signup-v1","op":"signup","shift_id":"s1","volunteer_id":"v1","promised_at":"2026-11-17T09:00:00Z","event_time":"2026-11-17T09:00:00Z"},
+ {"event_id":"signup-v2","op":"signup","shift_id":"s1","volunteer_id":"v2","promised_at":"2026-11-17T09:05:00Z","event_time":"2026-11-17T09:05:00Z"}
+]
