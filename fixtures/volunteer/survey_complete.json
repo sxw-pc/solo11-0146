@@ -1,0 +1,6 @@
+[
+ {"event_id":"svy-hh-a","op":"questionnaire","round_id":"r1","household_id":"hh-a","investigator":"investigator-indep-1","status":"completed","outcome":1,"surveyed_at":"2026-11-17T15:00:00Z","version":1,"event_time":"2026-11-17T15:05:00Z"},
+ {"event_id":"svy-hh-b","op":"questionnaire","round_id":"r1","household_id":"hh-b","investigator":"investigator-indep-1","status":"completed","outcome":0,"surveyed_at":"2026-11-17T15:00:00Z","version":1,"event_time":"2026-11-17T15:05:00Z"},
+ {"event_id":"svy-hh-c","op":"questionnaire","round_id":"r1","household_id":"hh-c","investigator":"investigator-indep-1","status":"completed","outcome":0,"surveyed_at":"2026-11-17T15:00:00Z","version":1,"event_time":"2026-11-17T15:05:00Z"},
+ {"event_id":"svy-hh-d","op":"questionnaire","round_id":"r1","household_id":"hh-d","investigator":"investigator-indep-1","status":"completed","outcome":0,"surveyed_at":"2026-11-17T15:00:00Z","version":1,"event_time":"2026-11-17T15:05:00Z"}
+]

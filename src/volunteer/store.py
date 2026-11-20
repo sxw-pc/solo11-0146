@@ -16,6 +16,10 @@ CREATE TABLE IF NOT EXISTS hours_claim(event_id TEXT PRIMARY KEY REFERENCES evid
 CREATE TABLE IF NOT EXISTS hours_ledger(shift_id TEXT NOT NULL,volunteer_id TEXT NOT NULL,minutes INTEGER NOT NULL,decision TEXT NOT NULL,reason TEXT NOT NULL,PRIMARY KEY(shift_id,volunteer_id));
 CREATE TABLE IF NOT EXISTS absence_case(shift_id TEXT NOT NULL,volunteer_id TEXT NOT NULL,decision TEXT NOT NULL,reason TEXT NOT NULL,PRIMARY KEY(shift_id,volunteer_id));
 CREATE TABLE IF NOT EXISTS report_history(id INTEGER PRIMARY KEY AUTOINCREMENT,as_of TEXT NOT NULL,body TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS invite_roster(event_id TEXT PRIMARY KEY REFERENCES evidence(event_id),round_id TEXT NOT NULL,household_id TEXT NOT NULL,arm TEXT NOT NULL,version INTEGER NOT NULL,frozen_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS delivery_slip(event_id TEXT PRIMARY KEY REFERENCES evidence(event_id),round_id TEXT NOT NULL,household_id TEXT NOT NULL,volunteer_id TEXT NOT NULL,shift_id TEXT,household_sign INTEGER NOT NULL,volunteer_sign INTEGER NOT NULL,delivered_at TEXT NOT NULL,version INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS outcome_survey(event_id TEXT PRIMARY KEY REFERENCES evidence(event_id),round_id TEXT NOT NULL,household_id TEXT NOT NULL,investigator TEXT NOT NULL,status TEXT NOT NULL,outcome REAL,surveyed_at TEXT NOT NULL,version INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS evaluation_contract(event_id TEXT PRIMARY KEY REFERENCES evidence(event_id),contract_id TEXT NOT NULL,round_id TEXT NOT NULL,kind TEXT NOT NULL,assumptions TEXT NOT NULL,qualification_prerequisite INTEGER NOT NULL,exposure TEXT NOT NULL,signed_at TEXT NOT NULL,version INTEGER NOT NULL);
 """
 
 def connect(path):

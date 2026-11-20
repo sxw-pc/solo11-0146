@@ -1,0 +1,6 @@
+[
+ {"event_id":"inv-hh-a","op":"invite","round_id":"r1","household_id":"hh-a","arm":"invited","version":1,"frozen_at":"2026-11-17T07:00:00Z","event_time":"2026-11-17T07:05:00Z"},
+ {"event_id":"inv-hh-b","op":"invite","round_id":"r1","household_id":"hh-b","arm":"invited","version":1,"frozen_at":"2026-11-17T07:00:00Z","event_time":"2026-11-17T07:05:00Z"},
+ {"event_id":"inv-hh-c","op":"invite","round_id":"r1","household_id":"hh-c","arm":"control","version":1,"frozen_at":"2026-11-17T07:00:00Z","event_time":"2026-11-17T07:05:00Z"},
+ {"event_id":"inv-hh-d","op":"invite","round_id":"r1","household_id":"hh-d","arm":"control","version":1,"frozen_at":"2026-11-17T07:00:00Z","event_time":"2026-11-17T07:05:00Z"}
+]

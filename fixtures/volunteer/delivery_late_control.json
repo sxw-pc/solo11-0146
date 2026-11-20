@@ -1,0 +1,3 @@
+[
+ {"event_id":"dlv-hh-c-late","op":"delivery","round_id":"r1","household_id":"hh-c","volunteer_id":"v2","shift_id":"s1","household_sign":true,"volunteer_sign":true,"delivered_at":"2026-11-17T11:30:00Z","version":1,"event_time":"2026-11-17T18:20:00Z"}
+]

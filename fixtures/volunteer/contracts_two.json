@@ -1,0 +1,8 @@
+[
+ {"event_id":"contract-a","op":"contract","contract_id":"contract-a","round_id":"r1","kind":"invite_policy","assumptions":[],"qualification_prerequisite":false,"exposure":"any_confirmed_delivery","signed_at":"2026-11-17T07:30:00Z","version":1,"event_time":"2026-11-17T07:35:00Z"},
+ {"event_id":"contract-b","op":"contract","contract_id":"contract-b","round_id":"r1","kind":"complier_effect","assumptions":[
+  {"key":"random_assignment","statement":"分组由事先冻结的随机编号决定","provable_from_data":false},
+  {"key":"monotonic_compliance_exclusion","statement":"单调依从且邀请对结果无直接效应","provable_from_data":false},
+  {"key":"no_interference","statement":"无跨家庭干扰","provable_from_data":false}],
+  "qualification_prerequisite":true,"exposure":"any_confirmed_delivery","signed_at":"2026-11-17T07:30:00Z","version":1,"event_time":"2026-11-17T07:35:00Z"}
+]
